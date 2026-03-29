@@ -1,26 +1,26 @@
 class Connexions < Formula
   desc "Generate APIs with meaningful responses, configurable latency, error codes and more"
   homepage "https://mockzilla.github.io/connexions/"
-  version "2.1.77"
+  version "2.1.78"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/mockzilla/connexions/releases/download/v#{version}/connexions-v#{version}-darwin-arm64"
-      sha256 "c51989984504aa37aaea5beeab6da74f4f79da36283e6a3fb6b890224866df59"
+      sha256 "dc058cc010eb53e61eed0db58952f2104c0eb16cb885fcfe7f6792ccef1c85a8"
     else
       url "https://github.com/mockzilla/connexions/releases/download/v#{version}/connexions-v#{version}-darwin-amd64"
-      sha256 "4ebdfee9355d4782c2b76f1b9a94ef043d0a2387a638ffb52a6fa71ed1d879b3"
+      sha256 "cddbd1ca4ea976f832712f8d23eb9b5385942722c7bb8b56a66061e86230c656"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/mockzilla/connexions/releases/download/v#{version}/connexions-v#{version}-linux-arm64"
-      sha256 "c4a2d7fe07d272c4dc6af5d55ee667e23bdf442145d6eb8644c97c956f3d238d"
+      sha256 "5f0522070ac68376041622ce019de2118d4321f9fdf590b0f8114359965c6404"
     else
       url "https://github.com/mockzilla/connexions/releases/download/v#{version}/connexions-v#{version}-linux-amd64"
-      sha256 "fe340f003e0d848fe8f81760e5f2c730e674c2c9ef5039e3afb039d6d3bdff72"
+      sha256 "21584f2b6145eaa6df58ddd53db3ce8dc43a06bdbdc5a3a02c85be23f04ccceb"
     end
   end
 
