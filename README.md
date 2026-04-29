@@ -12,16 +12,16 @@ brew tap mockzilla/tap
 
 | Formula | Description |
 |---------|-------------|
-| [connexions](https://github.com/mockzilla/connexions) | Generate APIs with meaningful responses, configurable latency, error codes and more |
+| [mockzilla](https://github.com/mockzilla/mockzilla) | Generate APIs with meaningful responses, configurable latency, error codes and more |
 
 ### Install
 
 ```bash
-brew install connexions
+brew install mockzilla
 ```
 
 ### Update
 
 ```bash
-brew update && brew upgrade connexions
+brew update && brew upgrade mockzilla
 ```
