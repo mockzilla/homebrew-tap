@@ -1,6 +1,6 @@
 # Mockzilla Homebrew Tap
 
-Homebrew formulae for [Mockzilla](https://github.com/mockzilla) tools.
+Homebrew formulae for [Mockzilla](https://mockzilla.org/) tools on macOS and Linux.
 
 ## Usage
 
@@ -12,7 +12,7 @@ brew tap mockzilla/tap
 
 | Formula | Description |
 |---------|-------------|
-| [mockzilla](https://github.com/mockzilla/mockzilla) | Generate APIs with meaningful responses, configurable latency, error codes and more |
+| [mockzilla](https://github.com/mockzilla/mockzilla) | Open-source OpenAPI mock server. Serve realistic mock APIs locally or in CI from any OpenAPI spec. |
 
 ### Install
 
