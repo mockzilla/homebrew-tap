@@ -1,26 +1,26 @@
 class Mockzilla < Formula
   desc "Generate APIs with meaningful responses, configurable latency, error codes and more"
   homepage "https://mockzilla.github.io/mockzilla/"
-  version "2.8.20"
+  version "2.8.21"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/mockzilla/mockzilla/releases/download/v#{version}/mockzilla-v#{version}-darwin-arm64"
-      sha256 "fb5c15cd48122bb9f3048e0c104feedf62d59e24b3521496abe2b337dc8f61f5"
+      sha256 "87dc92bad4883e417f7c9050bbb6b9580f183219271f3cdfa23d6e873124bc4c"
     else
       url "https://github.com/mockzilla/mockzilla/releases/download/v#{version}/mockzilla-v#{version}-darwin-amd64"
-      sha256 "2ced42c1f591ccb978c9e6e7077125f7ba87f7c9001247abfa24b1e11b59e9e6"
+      sha256 "fe81e86d1f5edda168ef3c3cbb6399a13d168dd9656fca71561d08a438c12dac"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/mockzilla/mockzilla/releases/download/v#{version}/mockzilla-v#{version}-linux-arm64"
-      sha256 "50ea5695cfaf06c4f7245cff684c3f542f8a1dee8f921b3740692bc818e4bca7"
+      sha256 "b31d923f5abd96c20477f70a90ae8195023c3bb00820d3cf70e73d5b8de286d8"
     else
       url "https://github.com/mockzilla/mockzilla/releases/download/v#{version}/mockzilla-v#{version}-linux-amd64"
-      sha256 "1e2b7c28c3cfc43beee626a14cd64f4e6562377e3f51425eeead175246b13062"
+      sha256 "60d38647ad8aecaa663454aba05b8ea11a385dceef41dc27d32290833ea5c6cb"
     end
   end
 
